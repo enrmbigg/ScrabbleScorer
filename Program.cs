@@ -10,13 +10,13 @@ namespace TheScrabbleTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Scrabble Test! V1.0"); 
+            Console.WriteLine("Scrabble Test! V1.0\n"); 
             //Do this until the esc key is pressed
             do
             {
                 try
                 {
-                    Console.WriteLine("\nPlease enter a word to be scored:");
+                    Console.WriteLine("Please enter a word to be scored:");
                     var ScrabbleWord = new Word(Console.ReadLine());
                     Console.WriteLine("Your word is: {0}", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ScrabbleWord.Value.ToLower()));
                     Console.WriteLine("Your letter score is: {0}", ScrabbleWord.GetLetterPoints());
@@ -28,7 +28,7 @@ namespace TheScrabbleTest
                 {
                     Console.WriteLine(e.Message + "\n");
                 }
-                Console.WriteLine("Hit the ESC key to end or other key to contiue");
+                Console.WriteLine("Hit the ESC key to end or other key to continue");
             
             } 
             while (Console.ReadKey(true).Key != ConsoleKey.Escape);

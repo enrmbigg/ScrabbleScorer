@@ -43,10 +43,7 @@ namespace TheScrabbleTest
         /// </summary>
         public char[] Letters
         {
-            get
-            {
-                return Value.ToArray();
-            }
+            get { return Value.ToArray(); }
         }
 
         /// <summary>
@@ -54,10 +51,7 @@ namespace TheScrabbleTest
         /// </summary>
         public int Length
         {
-            get
-            {
-                return Letters.Count();
-            }
+            get { return Letters.Count(); }
         }
 
         /// <summary>
@@ -65,10 +59,7 @@ namespace TheScrabbleTest
         /// </summary>
         public int Score
         {
-            get
-            {
-                return CalculateScore();
-            }
+            get { return CalculateScore(); }
         }
 
         /// <summary>
