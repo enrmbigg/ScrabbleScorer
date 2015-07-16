@@ -1,0 +1,4 @@
+c:\users\michael.biggs\documents\visual studio 2010\Projects\TheScrabbleTest\TheScrabbleTest\bin\Debug\TheScrabbleTest.exe
+c:\users\michael.biggs\documents\visual studio 2010\Projects\TheScrabbleTest\TheScrabbleTest\bin\Debug\TheScrabbleTest.pdb
+c:\users\michael.biggs\documents\visual studio 2010\Projects\TheScrabbleTest\TheScrabbleTest\obj\x86\Debug\TheScrabbleTest.exe
+c:\users\michael.biggs\documents\visual studio 2010\Projects\TheScrabbleTest\TheScrabbleTest\obj\x86\Debug\TheScrabbleTest.pdb
